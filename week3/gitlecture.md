@@ -35,7 +35,7 @@
     2. Name your repo appropriately
     3. GitHub is nice and gives you options for creating a remote
     4. Since we already have a repo, we're going to only need to set up a remote and then push our code locally to the repo we just created on GitHub
-    5. In our own terminal from the first level of our repo directory `myProject> git remote add origin https://github.com/TEnders64/someRepoName.git` (what this line does is establish a remote from our LOCAL machine to the external GitHub repo.  git remote add is the command to start a new remote.  origin is the name we're giving it, which can be customized)
+    5. In our own terminal from the first level of our repo directory `myProject> git remote add origin https://github.com/marboga/someRepoName.git` (what this line does is establish a remote from our LOCAL machine to the external GitHub repo.  git remote add is the command to start a new remote.  origin is the name we're giving it, which can be customized)
     6. Now let's push our local project 'up' to GitHub. `git push origin master`
   - Now what exactly gets pushed?  
     - Our latest local commits.  If you have uncommitted changes in your files, they won't get pushed up to GitHub!
