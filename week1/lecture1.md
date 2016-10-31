@@ -45,8 +45,8 @@
   1. Let's create a directory on our Desktop: `mkdir YourName`
   2. Now let's navigate into our new directory `cd YourName`
   3. Let's initialize our repo to <b>monitor</b> our changes: `git init` (this could have been done as step 3 as well)
-  4. Now let's put some code into our new directory. `touch AboutMe.md` or `type NUL > AboutMe.md`. We'll put some information into the readme file we just created with Atom/Sublime.
-  5. Now lets see what is going on with the file we just created. Remember we are now tracking our progress so we can do `git status` to see what has happened with out files.
+  4. Now let's put some code into our new directory. `touch AboutMe.md` or `type NUL > AboutMe.md`. We'll put some information into the readme file we just created with Atom.
+  5. Now let's see what is going on with the file we just created. Remember we are now tracking our progress so we can do `git status` to see what has happened with our files.
   6. Next let's take the added files and make them 'stick' with an `add` and `commit` command:
   7. `git add .`  The period says "ADD <b><i>ALL</i></b> FILES IN THE CURRENT DIRECTORY!" (You can be selective and only add specific files you want).  Let's `git status` again to see what happened. Now our files are staged
   8. `git commit -m "added some style"` This command will take the staged files and commit them or make them last. One last `git status` to see what has changed with our files.
