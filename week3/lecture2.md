@@ -50,7 +50,7 @@ But with orderly key / value pairs, any value can be looked up simply by knowing
 
 - super great!
 
-- Asynchronous Javascript And XML
+- Asynchronous Javascript And XML(Extensible Markup Language)
 
 - Allows you to:
 	- update web pages without reloading
